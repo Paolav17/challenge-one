@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Encriptador ONE</title>
+</head>
+<body>
+    <main class="contenedor__contenido">    
+        <section class="cotenedor__contenido__informacion">
+            <h1>Encriptador de texto</h1>
+            <form class="contenedor__contenido__formulario">
+                <textarea id="texto" name="texto" placeholder="Escriba su texto para encriptar" required></textarea>
+                <div class="contenedor__contenido__formulario__botones">
+                    <button type="button" id="encriptarBtn">Encriptar</button>
+                    <button type="button" id="desencriptarBtn">Desencriptar</button>
+                </div>
+            </form>
+            <h6>Recuerda solamente colocar en minúsculas y sin acentos</h6>
+        </section>
+        <section class="contenedor__contenido__resultado">
+            <p id="resultado">Texto encriptado/desencriptado</p>
+            <button id="copiarBtn">Copiar</button>
+            <img src="/resources/imagen_encriptado_dos.jpeg" alt="imagen encriptado" class="contenedor__contenido__resultado__imagen_ref">
+        </section>
+    </main>
+    <footer class="contenedor__piedepagina">
+        <h3>Todos los derechos reservados - 2024 Paola Vargas</h3>
+        <a href="https://www.linkedin.com/in/paola-vargas-mendez/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
